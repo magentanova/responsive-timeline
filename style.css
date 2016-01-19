@@ -16,7 +16,7 @@ p {
 .right-box {
 	margin: 10px 0;
 	position: relative;
-	flex: 8;
+	flex: 14;
 	background-color: #46a4da;
 	max-width: 800px;
 	border-radius: 5px;
@@ -58,9 +58,10 @@ p {
 }
 
 .icon-col {
-	margin: 0px 10px;
-	flex: 1;
+	margin: 0px 18px;
+	/* flex: 2; */
 	/* min-height: 75px; */
+	max-width: 100px;
 	position: relative;
 }
 
@@ -75,9 +76,9 @@ p {
 
 .timestamp {
 	text-align: right;
-	flex: 1;
+	flex: 3;
 	margin-top: 7px;
-	min-width: 98px;
+	max-width: 150px;
 	/* background-color: chartreuse; */
 }
 
